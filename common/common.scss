@@ -5,7 +5,7 @@
   color: var(--secondary);
 
   h1 {
-    font-size: 4em;
+    font-size: 3em;
     color: black;
   }
 
@@ -592,4 +592,15 @@ html body #main-outlet {
 
 .topic-list .main-link.focused {
   box-shadow: none;
+}
+
+#create-topic,
+#create-topic:focus,
+#create-topic:hover {
+  background-color: #2563EB;
+  color: white;
+
+  .fa {
+    color: white;
+  }
 }
