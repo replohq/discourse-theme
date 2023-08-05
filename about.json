@@ -14,11 +14,11 @@
   "color_schemes": {
     "air-light": {
       "primary": "1c1c1c",
-      "secondary": "000000",
+      "secondary": "f9fcff",
       "tertiary": "3877e5",
       "quaternary": "7e8b93",
-      "header_background": "f9fcff",
-      "header_primary": "122b43",
+      "header_background": "000000",
+      "header_primary": "ffffff",
       "highlight": "e6cb37",
       "danger": "d05454",
       "success": "71bd9f",
