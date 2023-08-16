@@ -5,13 +5,13 @@
   color: var(--secondary);
 
   h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     color: black;
   }
 
   p {
     color: black;
-    font-size: 1.25em !important;
+    font-size: 1em !important;
     font-weight: bold;
     margin-bottom: 1em;
   }
@@ -244,23 +244,13 @@ div.ac-wrap {
 }
 
 html {
+  font-family: 'Inter', sans-serif !important;
+
   body {
     background: linear-gradient(0deg,
         rgba(var(--primary-rgb), 0.075) 0%,
         rgba(var(--primary-rgb), 0.075) 100%),
       linear-gradient(0deg, var(--secondary) 100%, var(--secondary) 100%);
-  }
-
-  .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(90deg,
-        #F1F5F9 0%,
-        #F1F5F9 100%);
-    clip-path: ellipse(148% 70% at 91% -14%);
   }
 }
 
